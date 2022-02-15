@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Iansui;
+    src: url(../font/Iansui0.93-Regular.ttf)format('truetype');
+}
+
+* {
+    font-family: Iansui;
+}
