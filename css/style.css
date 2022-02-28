@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: Iansui;
     src: url(../font/Iansui0.93-Regular.woff)format('woff');
-}
+} */
 
 @font-face {
     font-family: HunterRiver;
@@ -51,7 +51,7 @@ h4 {
 }
 
 p {
-    font-family: Iansui;
+    /* font-family: Iansui; */
     font-size: 17px;
     line-height: 1.8;
     margin-bottom: 0;
