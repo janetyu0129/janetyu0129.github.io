@@ -339,6 +339,9 @@ img {
     .hand {
         width: 44px;
     }
+    .counter {
+        font-size: 2.5rem;
+    }
     .cp-item {
         padding: 2rem 0;
     }
