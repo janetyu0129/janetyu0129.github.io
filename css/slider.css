@@ -53,8 +53,6 @@ button.slick-next.slick-arrow {
     text-decoration: none;
     padding: 8px 30px;
     border: 2px solid #2f99a3;
-    color: #2f99a3;
-    font-size: 18px;
     border-radius: 50px;
     position: relative;
     top: 20px;
@@ -80,7 +78,7 @@ button.slick-next.slick-arrow {
 
 .flip-card-slider .slick-prev:before,
 .flip-card-slider .slick-next:before {
-    font-size: 60px;
+    /* font-size: 60px; */
 }
 
 .flip-card-slider.slick-dotted {
@@ -185,8 +183,6 @@ button.slick-next.slick-arrow {
 
 .flip-card-front i {
     margin: 0 auto 20px;
-    font-size: 65px;
-    color: #abc74a;
     display: block;
     position: relative;
     top: 20px;
@@ -198,11 +194,8 @@ button.slick-next.slick-arrow {
 }
 
 .flip-card-back {
-    font-size: 24px;
-    color: #2f99a3;
     text-align: center;
     line-height: 28px;
-    /* transform: rotateY(180deg); */
     border-radius: 12px;
     word-wrap: break-word;
 }
@@ -214,8 +207,6 @@ button.slick-next.slick-arrow {
 }
 
 .flip-card-back p {
-    font-size: 14px;
-    color: #424f62;
     text-align: center;
     line-height: 24px;
 }
@@ -228,8 +219,7 @@ button.slick-next.slick-arrow {
 
 .slick-prev:before,
 .slick-next:before {
-    color: #b4da2f !important;
-    font-size: 30px !important;
+    /* color: #b4da2f !important; */
 }
 
 .slick-prev:before {
