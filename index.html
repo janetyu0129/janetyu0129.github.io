@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-md">
             <a class="navbar-brand" href="#home">
-                <img src="img/logo.svg">
+                <img src="img/logo.png" alt="Janet Yu">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,18 +39,19 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <div data-include="header"></div>
 
     <section id="home" class="px-md-0 px-2">
         <div class="container hero_bnr pb-5 d-flex">
             <div class="row flex-fill align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <span class="h1 d-md-inline d-block">嗨，</span><span class="h1 d-md-inline d-block">我是喻詩庭 <img src="img/hand.png" class="hand"></span>
+                    <span class="h1 d-md-inline d-block">嗨，</span><span class="h1 d-md-inline d-block">我是喻詩庭 <img src="img/hand.png" alt="Hi" class="hand"></span>
                     <h1 class="h1">一位<span class="h1 px-2">UIUX</span>設計師</h1>
                     <h3 class="h3 my-md-4 my-3">相信設計沒有最好只有更好</h3>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-end">
-                    <img src="img/hero_img.svg">
+                    <img src="img/hero_img.png" alt="喻詩庭">
                 </div>
             </div>
         </div>
@@ -92,8 +93,8 @@
                                         </div>
                                         <div class="description d-flex align-items-center">
                                             <div>
-                                                <h4 class="h4 pb-2">新年活動一頁式網站</h4>
-                                                <p class="fc-gray lh-sm">行銷新年活動特別方案</p>
+                                                <h4 class="h4 pb-2">WordPress 建置</h4>
+                                                <p class="fc-gray lh-sm">整合 2C/2B 官網站台</p>
                                             </div>
                                         </div>
                                     </div>
@@ -107,8 +108,8 @@
                                         </div>
                                         <div class="description d-flex align-items-center">
                                             <div>
-                                                <h4 class="h4 pb-2">新年活動一頁式網站</h4>
-                                                <p class="fc-gray lh-sm">行銷新年活動特別方案</p>
+                                                <h4 class="h4 pb-2">一頁式網站設計</h4>
+                                                <p class="fc-gray lh-sm">行銷活動特別方案</p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,8 +123,8 @@
                                         </div>
                                         <div class="description d-flex align-items-center">
                                             <div>
-                                                <h4 class="h4 pb-2">新年活動一頁式網站</h4>
-                                                <p class="fc-gray lh-sm">行銷新年活動特別方案</p>
+                                                <h4 class="h4 pb-2">管理介面設計</h4>
+                                                <p class="fc-gray lh-sm">重新設計後台管理介面</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,8 +138,8 @@
                                         </div>
                                         <div class="description d-flex align-items-center">
                                             <div>
-                                                <h4 class="h4 pb-2">新年活動一頁式網站</h4>
-                                                <p class="fc-gray lh-sm">行銷新年活動特別方案</p>
+                                                <h4 class="h4 pb-2">上傳列表優化</h4>
+                                                <p class="fc-gray lh-sm">重點功能 UIUX 優化</p>
                                             </div>
                                         </div>
                                     </div>
@@ -247,8 +248,8 @@
                         <img src="https://via.placeholder.com/1024x768/eee?text=4:3" alt="" style="width:100%;height:auto;">
                     </div>
                     <div class="flip-card-padding">
-                        <h3 class="pb-2">新年一頁式網站設計</h3>
-                        <p>網站設計・動態設計・網站切版 </p>
+                        <h3 class="pb-2">一頁式網站設計</h3>
+                        <p>#網站設計#動態設計#網站切版 </p>
                     </div>
                 </div>
             </div>
@@ -281,7 +282,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <img src="img/contact_img.png">
+                            <img src="img/contact_img.png" alt="喻詩庭">
                         </div>
                     </div>
                 </div>
@@ -293,6 +294,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src='js/slick.min.js'></script>
     <script src="js/style.js"></script>
+    <script>
+        $(function() {
+            var includes = $('[data-include]')
+            $.each(includes, function() {
+                var file = 'views/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
 
 </body>
 
