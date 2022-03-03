@@ -179,6 +179,7 @@ button.slick-next.slick-arrow {
     text-align: center;
     border-radius: 10px;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 .flip-card-front i {
@@ -233,6 +234,9 @@ button.slick-next.slick-arrow {
 }
 
 @media (max-width: 640px) {
+    .slider {
+        margin: 2rem auto 1rem;
+    }
     .slick-slide.slick-current.slick-active.slick-center {
         transform: scale(1.1);
     }
@@ -244,15 +248,9 @@ button.slick-next.slick-arrow {
         top: 28pc;
         right: 9pc;
     }
-    .flip-card-inner {
-        height: 360px !important;
-    }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 700px) {
-    .flip-card-inner {
-        height: 360px !important;
-    }
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
     button.slick-prev.slick-arrow {
         top: 30pc;
         left: 22pc;
