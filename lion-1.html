@@ -18,8 +18,12 @@
     <script src='js/slick.min.js'></script>
     <script src="js/style.js"></script>
     <script>
-        $(function() {
+        $(document).ready(function() {
             $("#header").load("header.html");
+            //漢堡下拉選單展開時加背景色
+            $(".navbar-toggler").click(function() {
+                $(".bg-light").toggleClass("custom-navbar-bg");
+            });
         });
     </script>
 </head>
