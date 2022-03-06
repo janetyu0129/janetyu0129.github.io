@@ -381,33 +381,24 @@ img {
 .marquee {
     background-color: #E01A16;
     width: 100%;
-    padding-top: 66.667%;
-    position: relative;
+    height: 530px;
+    /* position: relative; */
     overflow: hidden;
 }
 
-.marquee img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    box-shadow: 20px 0 30px 0 rgba(0, 0, 0, 0.2);
-    animation: scrolling 40s linear infinite;
+marquee {
+    width: 100%;
+    height: 520px;
+    background-color: #E01A16;
+    padding: 2rem 2rem 0;
 }
 
-
-/* .marquee-item {
-    background-image: url(../img/lion/lion-5.jpg);
-    position: absolute;
-    top: 0;
+marquee img {
     width: 100%;
+    max-width: unset;
     height: 100%;
-    background-position: top center;
-    background-repeat-y: repeat;
-    background-repeat-x: no-repeat;
     box-shadow: 20px 0 30px 0 rgba(0, 0, 0, 0.2);
-    animation: scrolling 40s linear infinite;
-} */
+}
 
 .footer-learn {
     min-height: 640px;
@@ -481,6 +472,10 @@ img {
         top: -64px;
         left: 0;
     }
+    marquee {
+        height: 250px;
+        padding: 1rem 1rem 0;
+    }
 }
 
 @keyframes hand-shake {
@@ -527,20 +522,5 @@ img {
     100% {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
-    }
-}
-
-@keyframes scrolling {
-    0% {
-        transform: translate(-50%, 0);
-        /* background-position: top center; */
-    }
-    50% {
-        transform: translate(-50%, -66.667%);
-        /* background-position: bottom center; */
-    }
-    100% {
-        transform: translate(-50%, 0);
-        /* background-position: top center; */
     }
 }
