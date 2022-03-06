@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    //漢堡下拉選單展開時加背景色
+    $(".navbar-toggler").click(function() {
+        $(".bg-light").toggleClass("custom-navbar-bg");
+    });
+
     //Counting Numbers
     $(".counter").each(function() {
         var $this = $(this),
@@ -30,11 +35,6 @@ $(document).ready(function() {
             // $(this).css("box-shadow", "0 4px 0 " + initial);
         }
     );
-
-    //漢堡下拉選單展開時加背景色
-    $(".navbar-toggler").click(function() {
-        $(".bg-light").toggleClass("custom-navbar-bg");
-    });
 
     //Slick CSS
     $('.center').slick({
