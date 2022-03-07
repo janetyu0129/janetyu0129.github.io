@@ -379,24 +379,23 @@ img {
 }
 
 .marquee {
-    background-color: #E01A16;
-    width: 100%;
-    height: 530px;
-    /* position: relative; */
-    overflow: hidden;
-}
-
-marquee {
     width: 100%;
     height: 520px;
+    overflow: hidden;
     background-color: #E01A16;
     padding: 2rem 2rem 0;
 }
 
-marquee img {
-    width: 100%;
-    max-width: unset;
+.marquee-item {
     box-shadow: 20px 0 30px 0 rgba(0, 0, 0, 0.2);
+    animation: marquee-scrolling 25s linear infinite;
+    animation-delay: 1s;
+}
+
+.marquee-item img {
+    width: 100%;
+    height: auto;
+    max-width: unset;
 }
 
 .footer-learn {
@@ -471,7 +470,7 @@ marquee img {
         top: -64px;
         left: 0;
     }
-    marquee {
+    .marquee {
         height: 250px;
         padding: 1rem 1rem 0;
     }
@@ -521,5 +520,14 @@ marquee img {
     100% {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes marquee-scrolling {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
     }
 }
