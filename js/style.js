@@ -1,6 +1,7 @@
 $(document).ready(function() {
     //漢堡下拉選單展開時加背景色
-    // $(".navbar-toggler").click(function() {
+    // $("#header>button.navbar-toggler").click(function() {
+    //     console.log("1");
     //     $(".bg-light").toggleClass("custom-navbar-bg");
     // });
 
