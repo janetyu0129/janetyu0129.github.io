@@ -196,8 +196,7 @@ img {
     background-color: transparent !important;
 }
 
-
-/* .custom-navbar-bg .navbar-toggler-icon::before {
+.custom-navbar-bg .navbar-toggler-icon::before {
     content: "\f00d";
     font-family: FontAwesome;
 }
@@ -205,7 +204,7 @@ img {
 .custom-navbar-bg .collapsed .navbar-toggler-icon::before {
     content: "\f0c9";
     font-family: FontAwesome;
-} */
+}
 
 
 /* custom style */
