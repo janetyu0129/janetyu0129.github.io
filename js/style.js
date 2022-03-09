@@ -1,8 +1,7 @@
 $(document).ready(function() {
     //漢堡下拉選單展開時加背景色
-    $("#header>button.navbar-toggler").click(function() {
-        console.log("1");
-        $(".bg-light").toggleClass("custom-navbar-bg");
+    $("button.navbar-toggler").click(function() {
+        $(".custom-navbar-bg").toggleClass("open");
     });
 
     //Counting Numbers

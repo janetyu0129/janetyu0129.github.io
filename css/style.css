@@ -177,10 +177,6 @@ img {
     color: var(--color-orange);
 }
 
-.bg-light {
-    background-color: transparent !important;
-}
-
 .navbar-light .navbar-toggler {
     background-color: #fff;
     border: 1.5px solid #000;
@@ -196,13 +192,18 @@ img {
     transition: all 0.2s;
 }
 
-.navbar-toggler-icon::before {
-    content: "\f0c9";
-    font-family: FontAwesome;
+.custom-navbar-bg {
+    background-color: transparent !important;
 }
 
 .custom-navbar-bg .navbar-toggler-icon::before {
     content: "\f00d";
+    font-family: FontAwesome;
+}
+
+.custom-navbar-bg .collapsed .navbar-toggler-icon::before {
+    content: "\f0c9";
+    font-family: FontAwesome;
 }
 
 
@@ -426,7 +427,7 @@ img {
         padding: 0.75rem 0;
         text-align: center;
     }
-    .bg-light.custom-navbar-bg {
+    .custom-navbar-bg.open {
         background-color: #fff !important;
         border-bottom: 1px solid var(--color-gray-1);
         padding-bottom: 1.5rem;
