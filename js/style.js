@@ -1,9 +1,10 @@
 $(document).ready(function() {
+    $("#header").load("header.html");
     //漢堡下拉選單展開時加背景色
-    // $("#header>button.navbar-toggler").click(function() {
-    //     console.log("1");
-    //     $(".bg-light").toggleClass("custom-navbar-bg");
-    // });
+    $("#header>button.navbar-toggler").click(function() {
+        console.log("1");
+        $(".bg-light").toggleClass("custom-navbar-bg");
+    });
 
     //Counting Numbers
     $(".counter").each(function() {
