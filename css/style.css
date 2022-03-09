@@ -360,6 +360,18 @@ img {
     width: calc(100% - (var(--bs-gutter-x) * .5));
 }
 
+.d-bk-before::before {
+    background: var(--gradient-color-1);
+    content: "";
+    display: block;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -8%;
+    width: calc(100% - 500px);
+    z-index: -1;
+}
+
 .bold-font.t-top {
     position: absolute;
     top: -100px;
@@ -406,15 +418,22 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    h1,
     .h1 {
         font-size: 2.5rem;
         line-height: 1.2;
     }
+    h2,
     .h2 {
         font-size: 1.5rem;
     }
+    h3,
     .h3 {
         font-size: 1.25rem;
+    }
+    h4,
+    .h4 {
+        font-size: 1.15rem;
     }
     p {
         font-size: 1rem;
@@ -463,6 +482,10 @@ img {
     }
     .works-tc {
         top: 65px;
+    }
+    .d-bk-before::before {
+        bottom: -6%;
+        width: 100%;
     }
     .bold-font.t-top {
         top: -64px;
