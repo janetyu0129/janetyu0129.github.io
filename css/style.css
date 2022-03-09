@@ -197,12 +197,12 @@ img {
 }
 
 .custom-navbar-bg .navbar-toggler-icon::before {
-    content: "\f00d";
+    content: "\f0c9";
     font-family: FontAwesome;
 }
 
 .custom-navbar-bg .collapsed .navbar-toggler-icon::before {
-    content: "\f0c9";
+    content: "\f00d";
     font-family: FontAwesome;
 }
 
