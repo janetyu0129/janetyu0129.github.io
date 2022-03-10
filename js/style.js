@@ -1,9 +1,9 @@
 $(document).ready(function() {
     //漢堡下拉選單展開時加背景色
-    $("button.navbar-toggler").click(function() {
-        console.log("1");
-        $(".custom-navbar-bg").toggleClass("open");
-    });
+    // $("button.navbar-toggler").click(function() {
+    //     console.log("1");
+    //     $(".custom-navbar-bg").toggleClass("open");
+    // });
 
     //Counting Numbers
     $(".counter").each(function() {
