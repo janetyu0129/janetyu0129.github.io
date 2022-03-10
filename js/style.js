@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    //漢堡下拉選單展開時加背景色
-    // $("button.navbar-toggler").click(function() {
-    //     console.log("1");
-    //     $(".custom-navbar-bg").toggleClass("open");
-    // });
+    //漢堡下拉選單點即時自動收合
+    $('.nav-link, .btn-yu-primary').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+        $(".custom-navbar-bg").removeClass("open");
+    });
 
     //Counting Numbers
     $(".counter").each(function() {
