@@ -23,6 +23,10 @@
                     $("button.navbar-toggler").click(function() {
                         $(".custom-navbar-bg").toggleClass("open");
                     });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
                 }
             });
         });
