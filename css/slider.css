@@ -152,7 +152,8 @@ button.slick-next.slick-arrow {
     transform-style: preserve-3d;
     overflow: hidden;
     cursor: pointer;
-    /* height: 420px; */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -178,7 +179,6 @@ button.slick-next.slick-arrow {
 
 .flip-card-front {
     text-align: center;
-    border-radius: 10px;
     word-wrap: break-word;
     overflow: hidden;
 }
