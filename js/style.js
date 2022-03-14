@@ -35,16 +35,38 @@ $(document).ready(function() {
     $('.center').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 5,
         responsive: [{
-            breakpoint: 768,
-            settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 4,
+                    centerPadding: '50px'
+                }
+            },
+            {
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: '40px',
+                }
+            },
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: '30px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '20px',
+                }
             }
-        }]
+        ]
     });
 
     //ScrollTop

@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    margin: 4rem auto;
+    margin: 4rem auto 6rem;
 }
 
 .slick-slide {
@@ -39,14 +39,32 @@
     transform: rotateY(360deg);
 }
 
+.slick-arrow {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    transition: all 0.2s;
+}
+
 button.slick-prev.slick-arrow {
-    top: 25pc;
-    left: 40pc;
+    position: absolute;
+    bottom: -100px;
+    left: 45%;
+    transform: translateX(-45%);
 }
 
 button.slick-next.slick-arrow {
-    top: 25pc;
-    right: 40pc;
+    position: absolute;
+    bottom: -100px;
+    right: 45%;
+    transform: translateX(45%);
 }
 
 .ancher a {
@@ -74,11 +92,6 @@ button.slick-next.slick-arrow {
     height: 60px;
     width: 60px;
     opacity: 0;
-}
-
-.flip-card-slider .slick-prev:before,
-.flip-card-slider .slick-next:before {
-    /* font-size: 60px; */
 }
 
 .flip-card-slider.slick-dotted {
@@ -225,46 +238,32 @@ button.slick-next.slick-arrow {
     line-height: 24px;
 }
 
-.slick-prev:before,
-.slick-next:before {
-    /* color: #b4da2f !important; */
-}
-
 .slick-prev:before {
-    content: "\f053" !important;
+    content: "\f060" !important;
     font-family: fontawesome !important;
 }
 
 .slick-next:before {
-    content: "\f054" !important;
+    content: "\f061" !important;
     font-family: fontawesome !important;
 }
 
 @media (max-width: 640px) {
     .slider {
-        margin: 2rem auto 1rem;
+        margin: 2rem auto 4rem;
     }
     .slick-slide.slick-current.slick-active.slick-center {
         transform: scale(1.1);
     }
     button.slick-prev.slick-arrow {
-        top: 28pc;
-        left: 9pc;
+        bottom: -80px;
+        left: 40%;
+        transform: translateX(-40%);
     }
     button.slick-next.slick-arrow {
-        top: 28pc;
-        right: 9pc;
-    }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 767px) {
-    button.slick-prev.slick-arrow {
-        top: 30pc;
-        left: 22pc;
-    }
-    button.slick-next.slick-arrow {
-        top: 30pc;
-        right: 22pc;
+        bottom: -80px;
+        right: 40%;
+        transform: translateX(40%);
     }
 }
 

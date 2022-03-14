@@ -87,6 +87,10 @@ img {
     color: var(--color-gray-2);
 }
 
+.fc-white {
+    color: #fff;
+}
+
 .btn-yu-primary {
     color: #fff;
     background-color: var(--color-orange);
@@ -391,7 +395,7 @@ img {
     color: var(--color-light-orange);
 }
 
-.marquee {
+#lion.marquee {
     width: 100%;
     height: 520px;
     overflow: hidden;
@@ -399,13 +403,13 @@ img {
     padding: 2rem 2rem 0;
 }
 
-.marquee-item {
+#lion .marquee-item {
     box-shadow: 20px 0 30px 0 rgba(0, 0, 0, 0.2);
-    animation: marquee-scrolling 25s linear infinite;
+    animation: scrolling-v 25s linear infinite;
     animation-delay: 1s;
 }
 
-.marquee-item img {
+#lion .marquee-item img {
     width: 100%;
     height: auto;
     max-width: unset;
@@ -415,6 +419,39 @@ img {
     min-height: 640px;
     background: var(--gradient-color-1);
     padding: 36px 0;
+}
+
+.makephoto-cover-bg {
+    background-image: url(../img/egroup/makephoto-bg.jpg);
+    background-position: top 90px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.makephoto-bg {
+    background-color: #F2F4F8;
+}
+
+#makephoto.marquee {
+    width: 100%;
+    overflow: hidden;
+}
+
+#makephoto .marquee-content {
+    display: flex;
+    animation: scrolling-h 35s linear infinite;
+}
+
+#makephoto .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+}
+
+#makephoto .marquee-item img {
+    display: block;
+    min-width: 460px;
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -494,9 +531,12 @@ img {
         top: -64px;
         left: 0;
     }
-    .marquee {
+    #lion.marquee {
         height: 250px;
         padding: 1rem 1rem 0;
+    }
+    #makephoto .marquee-item img {
+        min-width: 360px;
     }
 }
 
@@ -547,11 +587,20 @@ img {
     }
 }
 
-@keyframes marquee-scrolling {
+@keyframes scrolling-v {
     0% {
         transform: translateY(0);
     }
     100% {
         transform: translateY(-100%);
+    }
+}
+
+@keyframes scrolling-h {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translatex(-3904px);
     }
 }
