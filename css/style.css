@@ -184,9 +184,10 @@ img {
 
 .scrolltop {
     position: absolute;
-    bottom: 5rem;
-    right: 0;
+    bottom: 0;
+    right: 1rem;
     transform: rotate(90deg);
+    transform-origin: bottom right;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -390,6 +391,15 @@ img {
     font-size: 1.5rem;
 }
 
+.social-icon-solo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-icon-solo i {
+    font-size: 1.5rem;
+}
+
 .d-why-bk {
     background: var(--gradient-color-1);
     padding: 3rem 0;
@@ -445,7 +455,7 @@ img {
 
 #lion.marquee {
     width: 100%;
-    height: 520px;
+    height: 640px;
     overflow: hidden;
     background-color: #E01A16;
     padding: 2rem 2rem 0;
@@ -453,7 +463,7 @@ img {
 
 #lp.marquee {
     width: 100%;
-    height: 520px;
+    height: 640px;
     overflow: hidden;
     background-color: #1D1D59;
     padding: 2rem 2rem 0;
@@ -462,7 +472,7 @@ img {
 #lion .marquee-item,
 #lp .marquee-item {
     box-shadow: 20px 0 30px 0 rgba(0, 0, 0, 0.2);
-    animation: scrolling-v 25s linear infinite;
+    animation: scrolling-v 28s linear infinite;
     animation-delay: 1s;
 }
 
@@ -473,10 +483,9 @@ img {
     max-width: unset;
 }
 
-.footer-learn {
-    min-height: 600px;
+.footer {
     background: var(--gradient-color-1);
-    padding: 36px 0;
+    padding: 1rem 0;
 }
 
 .makephoto-cover-bg {
@@ -546,10 +555,6 @@ img {
         border-bottom: 1px solid var(--color-gray-1);
         padding-bottom: 1.5rem;
         box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
-    }
-    .scrolltop {
-        bottom: 4rem;
-        right: -24px;
     }
     .hero_bnr {
         min-height: 640px;
