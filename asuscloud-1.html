@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喻詩庭</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='js/slick.min.js'></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-5 col-12">
+                    <div>
+                        <div class="pb-md-4 pb-3">
+                            <span class="h1">一頁式網站設計</span>
+                            <a href="https://personal.asuswebstorage.com/asus_box/" target="_blank" class="accent-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                            </a>
+                        </div>
+                        <p>#視覺設計 #網站設計 #動態設計 #網站切版</p>
+                        <p class="fc-gray">華碩雲端股份有限公司</p>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <img src="img/asuscloud/lp-cover.jpg" alt="一頁式網站設計">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-md-0 px-2 my-md-5 my-3 d-why-bk">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-1 col-12 position-relative">
+                    <h2 class="text-md-end text-start pe-md-4 pe-0 py-2 position-relative" style="z-index: 1;">設計目的與理念</h2>
+                    <p class="bold-font t-top-left">Why</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-justify py-2">為了將具時效性的行銷活動快速推廣出去，所設計的一頁式行銷網站，設計風格因主要目標客群為男性，打破以往的設計框架，以暗黑霓虹的風格呈現產品科技感，並提升品牌價值。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-12">
+                    <img src="img/asuscloud/lp-1.jpg" alt="Wireframe" class="mb-3 border-1">
+                    <p>Wireframe</p>
+                </div>
+                <div class="col-md-6 offset-md-1 col-12 d-flex flex-column justify-content-evenly">
+                    <div class="row py-md-5 py-4 mt-5">
+                        <div class="col-md-8 col-12">
+                            <div class="position-relative">
+                                <h2 class="position-relative pb-3" style="z-index: 1;">設計過程</h2>
+                                <p class="bold-font t-top">How</p>
+                                <p class="text-justify">第一次嘗試有別於以往明亮活潑的風格，如何將資訊清楚呈現在深色背景中參考許多資料，並將資訊架構、UIKit 設計規範定義清楚，加入流動霓虹、毛玻璃、動態進場等效果，想更吸引使用者的注意力。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-md-5 py-4">
+                        <div class="col-md-11 offset-md-1 col-12">
+                            <img src="img/asuscloud/lp-2.jpg" alt="UIKit" class="pb-3">
+                            <p class="text-justify">UIKit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-12">
+                    <img src="img/asuscloud/lp-3.gif" alt="進場動態效果" class="pb-3">
+                    <p class="text-justify px-md-5 px-0">網站以動態滑入該位置時，由下往上浮出圖示，吸引使用者的注意力</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <div id="lp" class="marquee">
+                        <div class="marquee-item">
+                            <img src="img/asuscloud/lp-index.jpg" alt="一頁式網站首頁">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 offset-md-1 col-12 d-flex align-items-center">
+                    <div class="py-md-5 py-4 position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">設計結果</h2>
+                        <p class="text-justify">此一頁式網站上線一個月內已成功達到行銷團隊預設的 KPI 100 萬成績。</p>
+                        <p class="bold-font what text-end">What</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-md-0 px-2 footer-learn position-relative d-flex">
+        <div class="container d-flex">
+            <div class="row" style="align-content: space-evenly;">
+                <div class="col-md-6 offset-md-3 col-12">
+                    <div class="position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">我的學習</h2>
+                        <p class="bold-font t-top-left">Learn</p>
+                        <p class="text-justify">此專案印象最深的是因為是具時效性的行銷活動，從無到完整上線，不到一週的時間必須完成所有的工項，看似不可能的任務，還是盡全力達成，學到與夥伴互相協助與配合的重要，成果雖有可改善空間，但團隊合作的心血換來的成就感是不可取代的。</p>
+                    </div>
+                </div>
+                <div class="col-12 text-md-center text-start">
+                    <a href="egroup-2.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>上一個作品</a>
+                    <a href="asuscloud-2.html" class="btn btn-yu-second">下一個作品<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scrolltop">SCROLL TOP</div>
+    </section>
+
+    <script src="js/style.js"></script>
+</body>
+
+</html>

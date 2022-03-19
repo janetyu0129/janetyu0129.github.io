@@ -37,36 +37,31 @@
     <div id="header"></div>
 
     <section class="px-md-0 px-2">
-        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
-            <div class="row flex-fill align-items-center">
-                <div class="col-md-5 col-12">
-                    <div>
+        <div class="container hero_bnr pb-md-5 pb-4" style="min-height:unset;">
+            <div class="row">
+                <div class="col-md-11 offset-md-1 col-12">
+                    <div class="py-md-5 py-4">
                         <div class="pb-md-4 pb-3">
-                            <span class="h1">一頁式網站設計</span>
-                            <a href="https://personal.asuswebstorage.com/asus_box/" target="_blank" class="accent-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
-                            </a>
+                            <span class="h1">上傳列表優化</span>
                         </div>
-                        <p>#視覺設計 #網站設計 #動態設計 #網站切版</p>
+                        <p>#UI 設計 #UX 優化 #網站切版</p>
                         <p class="fc-gray">華碩雲端股份有限公司</p>
                     </div>
                 </div>
-                <div class="col-md-7 col-12">
-                    <img src="img/asuscloud/lp-cover.jpg" alt="一頁式網站設計">
-                </div>
             </div>
         </div>
     </section>
 
-    <section class="px-md-0 px-2 my-md-5 my-3 d-why-bk">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-md-1 col-12 position-relative">
-                    <h2 class="text-md-end text-start pe-md-4 pe-0 py-2 position-relative" style="z-index: 1;">設計目的與理念</h2>
+    <section class="py-md-5 py-4 px-md-0 px-2">
+        <div class="container-fluid">
+            <div class="row align-items-center position-relative">
+                <div class="col-md-3 offset-md-2 col-12 d-bk-before2 w-lg position-relative">
+                    <h2 class="py-2 position-relative" style="z-index: 1;">設計目的與理念</h2>
+                    <p class="text-justify py-2 pb-md-0 pb-4">WebStorage 為華碩雲端的產品之一，提供使用者線上雲端儲存服務。此次優化目標為上傳列表，經過搜集使用者的問題回饋後，主要重新設計總進度條的狀態顯示、加強不同上傳狀態的差異與失敗回饋訊息提示。</p>
                     <p class="bold-font t-top-left">Why</p>
                 </div>
-                <div class="col-md-6 col-12">
-                    <p class="text-justify py-2">為了將具時效性的行銷活動快速推廣出去，所設計的一頁式行銷網站，設計風格因主要目標客群為男性，打破以往的設計框架，以暗黑霓虹的風格呈現產品科技感，並提升品牌價值。</p>
+                <div class="col-md-4 offset-md-1 col-12">
+                    <img src="img/asuscloud/upload-1.jpg" alt="上傳草稿圖" class="border-1">
                 </div>
             </div>
         </div>
@@ -74,27 +69,33 @@
 
     <section class="py-6 px-md-0 px-2">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-12">
-                    <img src="img/asuscloud/lp-1.jpg" alt="Wireframe" class="mb-3 border-1">
-                    <p>Wireframe</p>
+            <div class="row py-md-5 py-4">
+                <div class="col-md-4 offset-md-4 col-12">
+                    <div class="position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">設計過程</h2>
+                        <p class="bold-font t-top">How</p>
+                        <p class="text-justify">過程中將使用者的問題整理歸納，融入自己的想法做優化設計，加上原型的製作，讓使用者能更具體體驗優化結果，快速得到優化後的回饋。</p>
+                    </div>
                 </div>
-                <div class="col-md-6 offset-md-1 col-12 d-flex flex-column justify-content-evenly">
-                    <div class="row py-md-5 py-4 mt-5">
-                        <div class="col-md-8 col-12">
-                            <div class="position-relative">
-                                <h2 class="position-relative pb-3" style="z-index: 1;">設計過程</h2>
-                                <p class="bold-font t-top">How</p>
-                                <p class="text-justify">第一次嘗試有別於以往明亮活潑的風格，如何將資訊清楚呈現在深色背景中參考許多資料，並將資訊架構、UIKit 設計規範定義清楚，加入流動霓虹、毛玻璃、動態進場等效果，想更吸引使用者的注意力。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row py-md-5 py-4">
-                        <div class="col-md-11 offset-md-1 col-12">
-                            <img src="img/asuscloud/lp-2.jpg" alt="UIKit" class="pb-3">
-                            <p class="text-justify">UIKit</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row pt-md-5 pt-3">
+                <div class="col-md-6 col-12 py-3">
+                    <img src="img/asuscloud/upload-2.jpg" alt="優化前" class="pb-3">
+                    <p class="text-justify">優化前</p>
+                    <ol class="mb-0">
+                        <li>跨版面的進度條，容易造成用戶等待時間過長的錯覺。</li>
+                        <li>總進度條無法判斷目前整體狀態。</li>
+                        <li>上傳失敗的回饋提示太弱，無法得知失敗原因。</li>
+                    </ol>
+                </div>
+                <div class="col-md-6 col-12 py-3">
+                    <img src="img/asuscloud/upload-3.jpg" alt="優化後" class="pb-3">
+                    <p class="text-justify">優化後</p>
+                    <ol class="mb-0">
+                        <li>縮短進度條，讓閱讀資訊時更方便，並加入總進度條進行中、成功與失敗的狀態呈現。</li>
+                        <li>總進度條用深色底加強在不同狀態下顏色的對比與差異性。</li>
+                        <li>上傳失敗時增加提示訊息，說明每筆檔案失敗的原因。</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -102,31 +103,10 @@
 
     <section class="py-6 px-md-0 px-2">
         <div class="container">
-            <div class="row">
+            <div class="row pb-md-5 pb-4">
                 <div class="col-md-8 offset-md-2 col-12">
-                    <img src="img/asuscloud/lp-3.gif" alt="進場動態效果" class="pb-3">
-                    <p class="text-justify px-md-5 px-0">網站以動態滑入該位置時，由下往上浮出圖示，吸引使用者的注意力</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-6 px-md-0 px-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div id="lp" class="marquee">
-                        <div class="marquee-item">
-                            <img src="img/asuscloud/lp-index.jpg" alt="一頁式網站首頁">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 offset-md-1 col-12 d-flex align-items-center">
-                    <div class="py-md-5 py-4 position-relative">
-                        <h2 class="position-relative pb-3" style="z-index: 1;">設計結果</h2>
-                        <p class="text-justify">此一頁式網站上線一個月內已成功達到行銷團隊預設的 KPI 100 萬成績。</p>
-                        <p class="bold-font what text-end">What</p>
-                    </div>
+                    <img src="img/asuscloud/upload-proto.gif" alt="上傳原型" class="pb-3">
+                    <p class="text-justify px-md-5 px-0">使用 Principle 製作上傳列表優化原型</p>
                 </div>
             </div>
         </div>
@@ -139,12 +119,12 @@
                     <div class="position-relative">
                         <h2 class="position-relative pb-3" style="z-index: 1;">我的學習</h2>
                         <p class="bold-font t-top-left">Learn</p>
-                        <p class="text-justify">此專案印象最深的是因為是具時效性的行銷活動，從無到完整上線，不到一週的時間必須完成所有的工項，看似不可能的任務，還是盡全力達成，學到與夥伴互相協助與配合的重要，成果雖有可改善空間，但團隊合作的心血換來的成就感是不可取代的。</p>
+                        <p class="text-justify">學習到產品中的重要功能優化需耐心仔細經過每個設計流程與步驟，從草稿、切版到上線，每次的調整都是為呈現更好的體驗給使用者。</p>
                     </div>
                 </div>
                 <div class="col-12 text-md-center text-start">
                     <a href="asuscloud-1.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>上一個作品</a>
-                    <a href="asuscloud-4.html" class="btn btn-yu-second">下一個作品<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                    <a href="asuscloud-3.html" class="btn btn-yu-second">下一個作品<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
                 </div>
             </div>
         </div>
