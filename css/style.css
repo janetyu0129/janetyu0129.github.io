@@ -506,7 +506,7 @@ img {
 
 #makephoto .marquee-content {
     display: flex;
-    animation: scrolling-h 35s linear infinite;
+    animation: scrolling-h 40s linear infinite;
 }
 
 #makephoto .marquee-item {
