@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css.map" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.js.map"></script>
+    <!-- slider -->
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <script src='../js/slick.min.js'></script>
+    <!-- custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header-en.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4" style="min-height:unset;">
+            <div class="row">
+                <div class="col-md-11 offset-md-1 col-12">
+                    <div class="py-md-5 py-4">
+                        <div class="pb-md-4 pb-3">
+                            <span class="h1">Breast Cancer Foundation</span>
+                            <a href="https://www.cfbcf.org.tw/" target="_blank" class="accent-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                            </a>
+                        </div>
+                        <p>#Web Design #Coding</p>
+                        <p class="fc-gray">Egroup Corporation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-md-5 py-4 px-md-0 px-2 mt-md-0 mb-md-5 my-3">
+        <div class="container-fluid">
+            <div class="row align-items-center position-relative">
+                <div class="col-md-3 offset-md-2 col-12 d-bk-before2 position-relative">
+                    <h2 class="py-2 position-relative" style="z-index: 1;">Design Results and Success</h2>
+                    <p class="py-2 pb-md-0 pb-4">This project is quite special, because the client has already designed a part of the web page, and completed the remaining pages in the process to achieve design consistency, learned to empathize and strike a balance between persistence
+                        and compromise, and also participated in coding and learn how to use the Pug/Sass architecture.</p>
+                    <p class="bold-font t-top-left">Success</p>
+                </div>
+                <div class="col-md-6 offset-md-1 col-12">
+                    <img src="../img/egroup/cfbcf-1.jpg" alt="Breast Cancer Foundation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 col-12 mb-4">
+                    <div class="position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">Design Purpose</h2>
+                        <p class="bold-font t-top">Why</p>
+                        <p>During the project in cooperation with Fu University Department of Medicine, I tried to discuss the existing page style with the client from the perspective of a design consultant, hoping to let users understand breast cancer with
+                            a positive attitude with a colorful and warm feeling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-md-0 px-2 py-md-5 py-4">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="col-12 text-md-center text-start">
+                        <a href="egroup-1.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>Previous</a>
+                        <a href="asuscloud-1.html" class="btn btn-yu-second btn-en">Next<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                    </div>
+                    <div class="scrolltop">SCROLL TOP</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer px-md-0 px-2">
+            <div class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="social-icon-solo">
+                    <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.behance.net/janetyu0126b33" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </div>
+                <p class="fc-gray lh-sm text-md-end text-center">All contents and images Copyright © 2022 Janet Yu</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/style.js"></script>
+</body>
+
+</html>

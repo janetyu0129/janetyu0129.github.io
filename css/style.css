@@ -1,22 +1,22 @@
 @font-face {
     font-family: openHuninn;
-    src: url(../font/jf-openhuninn-1.1.ttf)format('truetype');
+    src: url(../font/jf-openhuninn-1.1.ttf) format('truetype');
 }
 
 @font-face {
     font-family: gensen;
-    src: url(../font/GenSenRounded-B.ttc)format('truetype');
+    src: url(../font/GenSenRounded-B.ttc) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: HunterRiver;
-    src: url(../font/HunterRiver-Regular.otf)format('opentype');
+    src: url(../font/HunterRiver-Regular.otf) format('opentype');
 }
 
 @font-face {
     font-family: Lato;
-    src: url(../font/Lato-BlackItalic.ttf)format('truetype');
+    src: url(../font/Lato-BlackItalic.ttf) format('truetype');
 }
 
 :root {
@@ -150,6 +150,10 @@ img {
 .btn-yu-second:focus {
     color: var(--color-orange);
     border: 1.5px solid var(--color-orange);
+}
+
+.btn-en {
+    min-width: 133px;
 }
 
 .accent-link {

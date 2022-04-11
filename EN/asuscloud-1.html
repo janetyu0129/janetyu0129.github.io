@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css.map" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.js.map"></script>
+    <!-- slider -->
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <script src='../js/slick.min.js'></script>
+    <!-- custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header-en.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-5 col-12">
+                    <div>
+                        <div class="pb-md-4 pb-3">
+                            <span class="h1">Landing Page Design</span>
+                            <a href="https://personal.asuswebstorage.com/asus_box/" target="_blank" class="accent-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                            </a>
+                        </div>
+                        <p>#Visual Design #Web Design #Animation Design #Coding</p>
+                        <p class="fc-gray">ASUS Cloud Corporation</p>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <img src="../img/asuscloud/lp-cover.jpg" alt="Landing Page Design">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-md-0 px-2 my-md-5 my-3 d-why-bk">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-1 col-12 position-relative">
+                    <h2 class="text-md-end text-start pe-md-4 pe-0 py-2 position-relative" style="z-index: 1;">Design Results and Success</h2>
+                    <p class="bold-font t-top-left">Success</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="py-2">The project successfully reached the KPI of <span class="highlight">1 million</span> preset by the marketing team within one month of its launch. The most unforgettable reason is the timeliness of the marketing activities, from scratch
+                        to online, less than a week to complete all the work items, seemingly impossible tasks, but still try our best to achieve, learn to help and cooperate with partners. Although there is room for improvement in results, the achievements
+                        of teamwork cannot be replaced.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-12 order-md-1 order-2">
+                    <img src="../img/asuscloud/lp-1.jpg" alt="UIKit" class="border-1 mb-3">
+                    <p>UIKit</p>
+                </div>
+                <div class="col-md-5 offset-md-1 col-12 order-md-2 order-1">
+                    <div class="py-md-5 py-4">
+                        <div class="position-relative">
+                            <h2 class="position-relative pb-3" style="z-index: 1;">Design Purpose</h2>
+                            <p class="bold-font t-top">Why</p>
+                            <p>In order to quickly promote the marketing activities, because the main target group of the website is male, breaking the previous design framework, showing the sense of product technology in a dark neon style, and enhancing
+                                the brand value.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 offset-md-1 col-12">
+                    <div class="py-md-5 py-4 position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">Design Process</h2>
+                        <p class="bold-font t-top">How</p>
+                        <p>The first attempt is different from the bright and lively style of the past. How to clearly present information on a dark background refers to many materials, and clearly defines the information architecture and UIKit design specifications,
+                            adding effects such as flowing neon, glassmorphism, and dynamic entry to enhance grab the user's attention.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-2 col-12">
+                    <img src="../img/asuscloud/lp-2.jpg" alt="Glassmorphism" class="pb-3">
+                    <p>Glassmorphism</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-12">
+                    <img src="../img/asuscloud/lp-3.gif" alt="動態進場特效" class="pb-3">
+                    <p class="text-md-center text-start px-md-5 px-0">When the website slides into this position dynamically, the image will pop up from bottom to top to enhance the user's attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-12 mb-4">
+                    <div id="lp" class="marquee">
+                        <div class="marquee-item">
+                            <img src="../img/asuscloud/lp-index.jpg" alt="一頁式網站設計">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-md-0 px-2 py-md-5 py-4">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="col-12 text-md-center text-start">
+                        <a href="egroup-2.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>Previous</a>
+                        <a href="asuscloud-2.html" class="btn btn-yu-second btn-en">Next<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                    </div>
+                    <div class="scrolltop">SCROLL TOP</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer px-md-0 px-2">
+            <div class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="social-icon-solo">
+                    <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.behance.net/janetyu0126b33" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </div>
+                <p class="fc-gray lh-sm text-md-end text-center">All contents and images Copyright © 2022 Janet Yu</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/style.js"></script>
+</body>
+
+</html>

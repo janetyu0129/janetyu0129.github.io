@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css.map" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.js.map"></script>
+    <!-- slider -->
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <script src='../js/slick.min.js'></script>
+    <!-- custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header-en.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-5 col-12">
+                    <div>
+                        <div class="pb-md-4 pb-3">
+                            <span class="h1">Homepage Integrate</span>
+                            <div class="pt-md-3 pt-2">
+                                <a href="https://personal.asuswebstorage.com" target="_blank" class="accent-link pe-3 text-decoration-none">
+                                    <span class="h3">2C</span><i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                                </a>
+                                <a href="https://business.asuswebstorage.com" target="_blank" class="accent-link text-decoration-none">
+                                    <span class="h3">2B</span><i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>#Visual Design #Web Design #Animation Design #Coding</p>
+                        <p class="fc-gray">ASUS Cloud Corporation</p>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <img src="../img/asuscloud/site-1.jpg" alt="Homepage Integrate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-md-0 px-2 my-md-5 my-3 d-why-bk">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-1 col-12 position-relative">
+                    <h2 class="text-md-end text-start pe-md-4 pe-0 py-2 position-relative" style="z-index: 1;">Design Results and Success</h2>
+                    <p class="bold-font t-top-left">Success</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="py-2">Integrate the company's 2C and 2B homepage into Wordpress, successfully improve the consistency of website design, reduce users' doubts, reduce the time cost of engineers and speed up the operation process on the demand side. In the
+                        process, I learned how to build a website from scratch to a complete launch and maintenance of the website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-12 order-md-1 order-2">
+                    <img src="../img/asuscloud/site-2.png" alt="old 2B website" class="pb-3">
+                    <p>The lighter color of the old 2B website is very different from the style of the 2C website, which is easy to confuse users, and often receives feedback that it is a fraudulent website.</p>
+                </div>
+                <div class="col-md-5 offset-md-1 col-12 order-md-2 order-1">
+                    <div class="py-md-5 py-4">
+                        <div class="position-relative">
+                            <h2 class="position-relative pb-3" style="z-index: 1;">Design Purpose</h2>
+                            <p class="bold-font t-top">Why</p>
+                            <p>In order to integrate the company's 2C and 2B websites, improve design consistency, and optimize the internal website maintenance process, it was decided to move the website to Wordpress. During the process, the information
+                                architecture and design systems of the two websites were redesigned, and the newly design concepts were updated to Wordpress.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 py-4">
+                    <img src="../img/asuscloud/site-2c-flow.jpg" alt="2C User Flow" class="border-1">
+                </div>
+                <div class="col-md-6 col-12 py-4">
+                    <img src="../img/asuscloud/site-2b-flow.jpg" alt="2B User Flow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 offset-md-1 col-12">
+                    <div class="py-md-5 py-4 position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">Design Process</h2>
+                        <p class="bold-font t-top">How</p>
+                        <p>The styles of the two websites must be consistent, but they must be slightly different, so that they can be approachable to ordinary users and professional technology images for enterprises. After research and redefinition, through
+                            the difference in color, hand-drawn and solid images lead to two website styles.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-2 col-12">
+                    <img src="../img/asuscloud/site-uikit.jpg" alt="UIKit" class="mb-3 border-1">
+                    <p>UIKit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-12 pb-md-0 pb-4">
+                    <img src="../img/asuscloud/site-5.jpg" alt="government projects" class="border-1 mb-3">
+                    <p>Redesigned 2B website's page for working with government projects</p>
+                </div>
+                <div class="col-md-6 offset-md-1 col-12 d-flex">
+                    <div class="row align-content-around pt-md-5 pt-0">
+                        <div class="col-12 py-md-5 py-4">
+                            <img src="../img/asuscloud/site-6.jpg" alt="2B Register Page" class="border-1 mb-3">
+                            <p>2B Register Page</p>
+                        </div>
+                        <div class="col-md-10 col-12 py-md-5 py-4">
+                            <img src="../img/asuscloud/site-7.jpg" alt="2B Contact Us Page" class="border-1 mb-3">
+                            <p>2B Contact Us Page</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-12 mb-4">
+                    <div class="video-container mb-3">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/82pR-m9bmCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="text-md-center text-start">Using After Effects to make a service intro animation for 2B website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="px-md-0 px-2 py-md-5 py-4">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="col-12 text-md-center text-start">
+                        <a href="asuscloud-2.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>Previous</a>
+                        <a href="lion-1.html" class="btn btn-yu-second btn-en">Next<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                    </div>
+                    <div class="scrolltop">SCROLL TOP</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer px-md-0 px-2">
+            <div class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="social-icon-solo">
+                    <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.behance.net/janetyu0126b33" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </div>
+                <p class="fc-gray lh-sm text-md-end text-center">All contents and images Copyright © 2022 Janet Yu</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/style.js"></script>
+</body>
+
+</html>

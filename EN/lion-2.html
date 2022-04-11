@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css.map" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.js.map"></script>
+    <!-- slider -->
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <script src='../js/slick.min.js'></script>
+    <!-- custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header-en.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2 pb-5">
+        <div class="container hero_bnr position-relative">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 col-12 d-flex">
+                    <div class="row align-content-around">
+                        <div class="col-12 py-5">
+                            <div class="pb-md-4 pb-3">
+                                <span class="h1">LionBobby</span>
+                                <a href="https://www.lionbobby.com/category/zh-tw/index" target="_blank" class="accent-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square fs-5 ps-2"></i>
+                                </a>
+                            </div>
+                            <p>#Web Design</p>
+                            <p class="fc-gray">Lion Information Technology Corporation</p>
+                        </div>
+                        <div class="col-md-10 offset-md-1 col-12 d-bk-before py-4">
+                            <h2 class="py-2 position-relative" style="z-index: 1;">Design Results and Success
+                                <p class="bold-font t-top-left" style="z-index: -1;">Success</p>
+                            </h2>
+                            <p class="py-2">Because this project wants to give users a sense of luxury, I refer to many examples and try various visual styles, fonts, and adjust the spacing of components, and realize that small changes can have different feelings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="../img/lion/bobby-1.jpg" alt="LionBobby">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 px-md-0 px-2 position-relative d-flex">
+        <div class="container d-flex position-relative">
+            <div class="row">
+                <div class="col-md-5 col-12 pb-md-0 pb-5">
+                    <img src="../img/lion/bobby-2.jpg" alt="LionBobby">
+                </div>
+                <div class="col-md-5 offset-md-1 col-12 py-3" style="display: flex;flex-direction: column;justify-content: space-evenly;">
+                    <div class="position-relative">
+                        <h2 class="position-relative pb-3" style="z-index: 1;">Design Purpose</h2>
+                        <p class="bold-font t-top-left">Why</p>
+                        <p>Because the LionBobby is mainly a high-end travel line, the design concept is simple and clean, and incorporates the image of the Logo hot air balloon, using hot air balloons to take travelers on an unforgettable journey.</p>
+                    </div>
+                    <div class="col-12 text-md-end text-start mt-4">
+                        <a href="lion-1.html" class="btn btn-yu-second me-2"><i class="fa-solid fa-arrow-left pe-1" style="font-size: 18px;"></i>Previous</a>
+                        <a href="egroup-1.html" class="btn btn-yu-second btn-en">Next<i class="fa-solid fa-arrow-right ps-1" style="font-size: 18px;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scrolltop">SCROLL TOP</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="footer px-md-0 px-2">
+            <div class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="social-icon-solo">
+                    <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.behance.net/janetyu0126b33" target="_blank" class="social-icon-solo accent-link m-2">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </div>
+                <p class="fc-gray lh-sm text-md-end text-center">All contents and images Copyright © 2022 Janet Yu</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/style.js"></script>
+</body>
+
+</html>
