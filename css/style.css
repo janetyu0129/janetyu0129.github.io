@@ -410,6 +410,10 @@ img {
     width: calc(100% - (var(--bs-gutter-x) * .5));
 }
 
+.d-bg-none {
+    background: none;
+}
+
 .d-bk-before::before {
     background: var(--gradient-color-1);
     content: "";
@@ -447,7 +451,7 @@ img {
 
 .bold-font.t-top-left {
     position: absolute;
-    top: -100px;
+    top: -120px;
     left: -64px;
     color: var(--color-light-orange);
     z-index: 0;
@@ -622,7 +626,7 @@ img {
         top: -64px;
     }
     .bold-font.t-top-left {
-        top: -64px;
+        top: -80px;
         left: 0;
     }
     #lion.marquee,
