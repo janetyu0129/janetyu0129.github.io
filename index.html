@@ -6,23 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
-    <title>喻詩庭</title>
+    <title>喻詩庭 Janet Yu</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <!-- font awesome 6 -->
-    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css.map" rel="stylesheet">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.bundle.js.map"></script>
-    <!-- slider -->
-    <link href="css/slick.css" rel="stylesheet">
-    <link href="css/slick-theme.css" rel="stylesheet">
-    <link href="css/slider.css" rel="stylesheet">
-    <script src='js/slick.min.js'></script>
     <!-- custom -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
 
     <script>
         $(document).ready(function() {
@@ -73,7 +69,7 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light custom-navbar-bg">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar-bg">
         <div class="container-md">
             <a class="navbar-brand" href="index.html#home">
                 <img src="img/logo.svg" alt="Janet Yu">
@@ -82,7 +78,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto my-3 my-md-0">
+                <ul class="navbar-nav ms-auto me-3 my-3 my-md-0">
                     <li class="nav-item mx-md-2 mx-0">
                         <a class="nav-link" href="index.html#home">首頁</a>
                     </li>
@@ -92,336 +88,373 @@
                     <li class="nav-item mx-md-2 mx-0">
                         <a class="nav-link" href="index.html#works">我的作品</a>
                     </li>
+                    <li class="nav-item mx-md-2 mx-0">
+                        <a class="nav-link" href="EN/index.html">EN</a>
+                    </li>
                 </ul>
                 <div class="d-grid gap-3 d-md-flex justify-content-md-end">
-                    <div class="align-self-center me-md-2">
-                        <a href="EN/index.html" class="accent-link text-decoration-none"><i class="fa-solid fa-globe me-1"></i>EN</a>
-                    </div>
-                    <a class="btn btn-yu-second me-md-2" href="Yu-Shih-Ting-Resume.pdf" target="_blank" download>下載我的履歷<i class="fa-solid fa-download ps-1" style="font-size: 18px;"></i></a>
-                    <a class="btn btn-yu-primary" href="index.html#contact">與我聯繫<i class="fa-solid fa-paper-plane ps-1" style="font-size: 18px;"></i></a>
+                    <a class="btn btn-yu-second" href="Yu-Shih-Ting-Resume.pdf" target="_blank" download>下載我的履歷</a>
+                    <a class="btn btn-yu-primary" href="index.html#contact">與我聯繫</a>
                 </div>
             </div>
         </div>
     </nav> -->
     <div id="header"></div>
 
-    <section id="home" class="px-md-0 px-2">
-        <div class="container hero_bnr pb-5 d-flex">
-            <div class="row flex-fill align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <span class="h1 d-md-inline d-block">嗨，</span><span class="h1 d-md-inline d-block">我是喻詩庭 <img src="img/hand.png" alt="Hi" class="hand"></span>
-                    <h1 class="h1">一位<span class="h1 px-2">UIUX</span>設計師</h1>
-                    <h3 class="h3 my-md-4 my-3">相信設計沒有最好只有更好</h3>
-                    <div class="scrolldown">
-                        <div class="line"></div>
+    <div class="scroller">
+        <section id="home" class="scroll d-flex">
+            <div class="container d-flex">
+                <div class="row flex-fill align-items-center">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <h1 class="mt-md-0 mt-4 mb-2">
+                            <span class="h1 d-md-inline d-block">嗨，</span><span class="h1 d-md-inline d-block">我是喻詩庭 <img src="img/hand.png" alt="Hi" class="hand"></span>
+                        </h1>
+                        <h1 class="fw-light">一位 UIUX Designer</h1>
+                        <h3 class="motto fw-light my-md-4 my-3">相信設計沒有最好只有更好</h3>
+                        <div class="scrolldown">
+                            <div class="line"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 text-end">
-                    <img src="img/hero_img.png" alt="喻詩庭">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-end">
+                        <img src="img/hero_img.png" alt="喻詩庭">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="py-5 px-md-0 px-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <div class="position-relative pb-md-5 pb-4">
-                        <h1 class="h1">關於我</h1>
-                        <p class="bold-font about">About</p>
+        <section id="about" class="scroll">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-3">
+                        <h1 class="text-orient-v m-md-auto me-auto css-about">關於我</h1>
                     </div>
-                    <h2 class="h2 pb-md-4 pb-3">喻詩庭 Janet Yu</h2>
-                    <div class="row row-cols-auto pb-md-4 pb-3">
-                        <div class="col">
-                            <p class="py-0 counter" data-count="5">0</p>
-                            <p>年工作經驗</p>
+                    <div class="col-9">
+                        <h2 class="pb-md-5 pb-3">喻詩庭<span class="h2 fw-light ms-2">Janet Yu</span></h2>
+                        <div class="row row-cols-auto pb-md-5 pb-3">
+                            <div class="col">
+                                <h1 class="py-0 counter" data-count="6">1</h1>
+                                <p class="fw-bold">年工作經驗</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="py-0 counter" data-count="10">5</h1>
+                                <p class="fw-bold">已上線作品</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <p class="py-0 counter" data-count="10">0</p>
-                            <p>線上作品</p>
-                        </div>
-                    </div>
-                    <p class="text-justify pb-4">2016 年畢業於輔仁大學的資訊管理學系，現任於華碩雲端股份有限公司擔任使用者介面設計師，主要負責公司產品的 UI/UX 優化、網站設計與切版，專案類型包含 Web、App、EDM 與平面 ，熟悉 HTML / CSS 程式語言、CIS 企業識別設計都有一定的經驗。過去做過的專案有華碩雲端官網建置與改版、行銷活動一頁式網站設計、雄獅旅遊大首頁改版、勇源輔大乳癌基金會等。從這些經驗中學到設計師除了需具備基本技能外，還要能觀測 GA 數據不斷的達到更好的使用體驗，確實掌握使用者的需求並表達設計的意義與價值，我相信設計沒有最好，只有更好，透過反覆的討論與驗證一定能帶來更直覺更友善的設計體驗。</p>
-
-                    <!-- asuscloud -->
-                    <div class="cp-item">
-                        <p class="fc-gray pb-2">2019.07 - 至今 / 使用者介面設計師</p>
-                        <h2 class="h2 pb-md-4 pb-3">華碩雲端股份有限公司</h2>
-                        <p class="text-justify pb-3">在職期間負責公司的官網整合、產品 UI/UX 優化，行銷活動一頁式網站與平面設計。曾為公司的產品網站上線一個月內成功<span class="highlight">達到 100 萬</span>成績，與產品優化後<span class="highlight">降低 80%</span>的客訴案件。</p>
                         <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <a href="asuscloud-1.html" class="cp-work-link">
-                                    <div class="cp-work" value="#1D1D59">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/asuscloud-1.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">一頁式網站設計</h4>
-                                                <p class="fc-gray lh-sm">行銷合作案</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <a href="asuscloud-2.html" class="cp-work-link">
-                                    <div class="cp-work" value="#2250ac">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/asuscloud-2.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">上傳列表優化</h4>
-                                                <p class="fc-gray lh-sm">重點功能 UIUX 優化</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <a href="asuscloud-3.html" class="cp-work-link">
-                                    <div class="cp-work" value="#2250ac">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/asuscloud-3.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">官網整合與建置</h4>
-                                                <p class="fc-gray lh-sm">使用 WordPress 整合建置</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- <div class="col-md-6 col-sm-12">
-                                <a href="#" class="cp-work-link">
-                                    <div class="cp-work" value="#2250ac">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">管理介面設計</h4>
-                                                <p class="fc-gray lh-sm">重新設計後台管理介面</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <!-- lion travel -->
-                    <div class="cp-item">
-                        <p class="fc-gray pb-2">2018.03 - 2019.07 / 交互體驗設計師</p>
-                        <h2 class="h2 pb-md-4 pb-3">雄獅資訊科技股份有限公司</h2>
-                        <p class="text-justify pb-3">在職期間主要工作內容是為公司內外部的各站台數位介面做設計，負責專案包含 Web 與 App。曾為公司的首頁改版上線三個月內成功<span class="highlight">增加 50 萬新用戶</span>。</p>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <a href="lion-1.html" class="cp-work-link">
-                                    <div class="cp-work" value="#E10500">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/lion-1.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">站長平台</h4>
-                                                <p class="fc-gray lh-sm">大首頁上架的平台</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <a href="lion-2.html" class="cp-work-link">
-                                    <div class="cp-work" value="#B81B22">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/lion-2.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">雄保旅遊</h4>
-                                                <p class="fc-gray lh-sm">主打高端旅遊線網站</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                            <div class="col-md-9 col-11">
+                                <p class="text-justify pb-8">2016 年畢業於輔仁大學的資訊管理學系，曾任於睿能創意股份有限公司擔任視覺介面設計師，主要負責 App UI 設計，產品網站視覺設計，專案類型包含 Web、iOS、Android。熟悉 Figma、Sketch、Ps、Ai 與 HTML/CSS 程式語言，EDM 製作與 CIS 企業識別、Icon 設計都有一定的經驗。過去曾做過的專案有 Gogoro App 首頁介面改版、行銷活動 Game UI 設計；華碩雲端官網建置與改版、行銷活動一頁式網站設計；雄獅旅遊大首頁改版、勇源輔大乳癌基金會等。從這些經驗中學到設計師除了需具備基本技能外，還要不斷利用數據與回饋達到更好的使用體驗，確實掌握使用者的需求並表達設計的意義與價值，我相信設計沒有最好，只有更好，透過反覆的討論與驗證一定能帶來更直覺更友善的設計體驗。</p>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- egroup -->
-                    <div class="cp-item">
-                        <p class="fc-gray pb-2">2016.06 - 2017.10 / UIUX 設計師</p>
-                        <h2 class="h2 pb-md-4 pb-3">益群健康股份有限公司</h2>
-                        <p class="text-justify pb-3">在職期間為公司的產品設計 CIS、Web 與 App 介面，手繪系列 Icon 並定義了設計規範，風格以簡單清楚直覺為原則。</p>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <a href="egroup-1.html" class="cp-work-link">
-                                    <div class="cp-work" value="#1D8ADB">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/egroup-1.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">MakePhoto</h4>
-                                                <p class="fc-gray lh-sm">整理分類相片的網站</p>
+                        <!-- gogoro -->
+                        <div class="pb-8">
+                            <h3 class="c-name pb-2">睿能創意股份有限公司</h3>
+                            <p class="opacity-50 pb-4">2022.07-2022.11 視覺介面設計師</p>
+                            <div class="row">
+                                <div class="col-md-9 col-11">
+                                    <p class="text-justify pb-md-5 pb-4">在職期間負責公司的 App 設計與優化，將 App 的整體主視覺重新設計，包含 App Icon、Screenshots 與首頁 UI 改版；為了推廣與台新銀行新的聯名卡上線，量身打造以虛實整合遊戲為主的行銷活動「換電戰 Ｍ」，負責設計手機的 Game UI。</p>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="gogoro-1.html" target="_blank" class="img-frame">
+                                                    <img src="img/gogoro/sbm-cover.jpg" alt="換電戰 M" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">換電戰 Ｍ Game UI</h4>
+                                                <p class="pb-4">為了推廣與台新銀行新的聯名卡上線，量身打造以虛實整合遊戲為主的行銷活動「換電戰 Ｍ」。</p>
+                                                <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#app</span></div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <a href="egroup-2.html" class="cp-work-link">
-                                    <div class="cp-work" value="#E46397">
-                                        <div class="meta">
-                                            <div class="photo" style="background-image: url(img/egroup-2.jpg)"></div>
-                                        </div>
-                                        <div class="description d-flex align-items-center">
-                                            <div>
-                                                <h4 class="h4 pb-2">輔大勇源基金會</h4>
-                                                <p class="fc-gray lh-sm">乳癌相關醫療知識網站</p>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="gogoro-2.html" target="_blank" class="img-frame">
+                                                    <img src="img/gogoro/app-cover.jpg" alt="App Revamp" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">App Revamp</h4>
+                                                <p class="pb-4">因應 Gogoro 新的電子支付服務誕生，所重新定義與設計的 App 風格。</p>
+                                                <div class="cp-tags"><span>#visual</span><span>#animation</span><span>#app</span></div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="works" class="py-5 gradient-bk">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <div class="position-relative pb-md-5 pb-4">
-                        <p class="bold-font text-center works">Works</p>
-                        <h1 class="h1 text-center works-tc">我的作品</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="center slider">
-            <div class="flip-card-inner" onclick="location.href='asuscloud-1.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/asuscloud/lp-cover.jpg" alt="一頁式網站設計">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">一頁式網站設計</h3>
-                        <p class="fc-gray">#視覺設計#網站設計#動態設計#網站切版</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='asuscloud-2.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/asuscloud-2.jpg" alt="上傳列表優化">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">上傳列表優化</h3>
-                        <p class="fc-gray">#UI 設計#UX 優化#網站切版</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='asuscloud-3.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/asuscloud/site-1.jpg" alt="官網整合與建置">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">官網整合與建置</h3>
-                        <p class="fc-gray">#視覺設計#網站設計#動畫設計#網站切版</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='lion-1.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/lion/lion-1.jpg" alt="雄獅旅遊">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">站長平台</h3>
-                        <p class="fc-gray">#網站設計#介面設計</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='lion-2.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/lion/bobby-cover.jpg" alt="雄保旅遊">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">雄保旅遊</h3>
-                        <p class="fc-gray">#網站設計</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='egroup-1.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/egroup/makephoto-cover.jpg" alt="MakePhoto">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">MakePhoto</h3>
-                        <p class="fc-gray">#CIS 設計#網站設計#APP 設計</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card-inner" onclick="location.href='egroup-2.html';">
-                <div class="flip-card-front">
-                    <div class="ratio ratio-4x3">
-                        <img src="img/egroup/cfbcf-cover.jpg" alt="勇源輔大乳癌基金會">
-                    </div>
-                    <div class="flip-card-padding">
-                        <h3 class="pb-2">勇源輔大乳癌基金會</h3>
-                        <p class="fc-gray">#網站設計#網站切版</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-5 px-md-0 px-2">
-        <div class="container py-md-4 py-3 position-relative ">
-            <div class="row">
-                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 align-self-center">
-                            <div>
-                                <h1 class="h1 pb-md-5 pb-4">與我聯繫</h1>
-                                <span class="d-inline-block pb-md-4 pb-3">
-                                    <a href="mailto:janetyu0129@gmail.com" target="_blank" class="h3 d-block accent-link">janetyu0129@gmail.com</a>
-                                </span>
-                                <span class="d-inline-block pb-md-4 pb-3">
-                                    <a href="tel:0935830129" target="_blank" class="h3 d-block accent-link">0935 830 129</a>
-                                </span>
-                                <div class="pt-1 pb-md-5 pb-4">
-                                    <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="social-icon me-2 accent-link">
-                                        <i class="fa-brands fa-linkedin"></i>
-                                    </a>
-                                    <a href="https://www.behance.net/janetyu0126b33" target="_blank" class="social-icon accent-link">
-                                        <i class="fa-brands fa-behance"></i>
-                                    </a>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="gogoro-3.html" target="_blank" class="img-frame">
+                                                    <img src="img/gogoro/home-revamp-cover.jpg" alt="Home UI Revamp" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">Home UI Revamp</h4>
+                                                <p class="pb-4">延續 App 設計風格改版，將首頁 UI 做設計一致性的調整並模組化。</p>
+                                                <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#app</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="bold-font contact">Contact</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <img src="img/contact_img.png" alt="喻詩庭">
-                            <div class="scrolltop" style="right: 2rem;">SCROLL TOP</div>
+
+                        <!-- asuscloud -->
+                        <div class="pb-8">
+                            <h3 class="c-name pb-2">華碩雲端股份有限公司</h3>
+                            <p class="opacity-50 pb-4">2019.07-2022.07 使用者介面設計師</p>
+                            <div class="row">
+                                <div class="col-md-9 col-11">
+                                    <p class="text-justify pb-md-5 pb-4">在職期間負責公司的官網整合、產品 UI/UX 優化，行銷活動一頁式網站與平面設計。曾為公司的產品網站上線一個月內成功達到 100 萬成績，與產品優化後降低 80% 的客訴案件。</p>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="asuscloud-1.html" target="_blank" class="img-frame">
+                                                    <img src="img/asuscloud/lp-cover.jpg" alt="一頁式網站設計" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">一頁式網站設計</h4>
+                                                <p class="pb-4">與華碩電腦軟硬體合作的行銷案，所設計的一頁式網站。</p>
+                                                <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#develope</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="asuscloud-2.html" target="_blank" class="img-frame">
+                                                    <img src="img/asuscloud/upload-cover.jpg" alt="產品上傳列表優化" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">產品上傳列表優化</h4>
+                                                <p class="pb-4">將主要產品的重點功能優化。</p>
+                                                <div class="cp-tags"><span>#uiux</span><span>#develope</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="asuscloud-3.html" target="_blank" class="img-frame">
+                                                    <img src="img/asuscloud/site-cover.jpg" alt="官網整合與建置" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">官網整合與建置</h4>
+                                                <p class="pb-4">將公司兩大產品的官網做設計整合並使用 WordPress 建置。</p>
+                                                <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#develope</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- lion -->
+                        <div class="pb-8">
+                            <h3 class="c-name pb-2">雄獅資訊科技股份有限公司</h3>
+                            <p class="opacity-50 pb-4">2018.03-2019.07 交互體驗設計師</p>
+                            <div class="row">
+                                <div class="col-md-9 col-11">
+                                    <p class="text-justify pb-md-5 pb-4">在職期間主要工作內容是為公司內外部的各站台數位介面做設計，負責專案包含 Web 與 App。曾為公司的首頁改版上線三個月內成功增加 50 萬新用戶。</p>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="lion-1.html" target="_blank" class="img-frame">
+                                                    <img src="img/lion/lion-1.jpg" alt="站長平台" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">站長平台</h4>
+                                                <p class="pb-4">編輯大首頁產品的操作平台。</p>
+                                                <div class="cp-tags"><span>#uiux</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="lion-2.html" target="_blank" class="img-frame">
+                                                    <img src="img/lion/bobby-cover.jpg" alt="雄保旅遊" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">雄保旅遊</h4>
+                                                <p class="pb-4">主打高端旅遊的產品。</p>
+                                                <div class="cp-tags"><span>#uiux</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- egroup -->
+                        <div class="pb-8">
+                            <h3 class="c-name pb-2">益群健康股份有限公司</h3>
+                            <p class="opacity-50 pb-4">2016.06-2017.10 UIUX 設計師</p>
+                            <div class="row">
+                                <div class="col-md-9 col-11">
+                                    <p class="text-justify pb-md-5 pb-4">在職期間為公司的產品設計 CIS、Web 與 App 介面，手繪系列 Icon 並定義了設計規範，風格以簡單清楚直覺為原則。</p>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="egroup-1.html" target="_blank" class="img-frame">
+                                                    <img src="img/egroup/makephoto-cover.jpg" alt="MakePhoto" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">MakePhoto</h4>
+                                                <p class="pb-4">整理與分類相片的網站。</p>
+                                                <div class="cp-tags"><span>#cis</span><span>#uiux</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cp-project">
+                                        <div class="row">
+                                            <div class="col-md-4 col-12">
+                                                <a href="egroup-2.html" target="_blank" class="img-frame">
+                                                    <img src="img/egroup/cfbcf-cover.jpg" alt="勇源輔大乳癌基金會" class="fade-in pb-md-0 pb-2">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 col-12">
+                                                <h4 class="pb-2">勇源輔大乳癌基金會</h4>
+                                                <p class="pb-4">集合乳癌相關醫療知識的網站。</p>
+                                                <div class="cp-tags"><span>#uiux</span><span>#develope</span><span>#web</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="scroll d-flex align-items-center">
+            <div class="flex-fill">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 col-10 offset-1">
+                            <h1 id="js-work" class="pb-md-5 pb-3">我的作品</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-view">
+                    <ul class="works-content">
+                        <li class="work-item">
+                            <a href="gogoro-1.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/gogoro/sbm-cover.jpg" alt="換電戰 M">
+                            </a>
+                            <h4 class="pt-4 pb-3">換電戰 Ｍ Game UI</h4>
+                            <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#app</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="gogoro-2.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/gogoro/app-cover.jpg" alt="App Revamp">
+                            </a>
+                            <h4 class="pt-4 pb-3">App Revamp</h4>
+                            <div class="cp-tags"><span>#visual</span><span>#animation</span><span>#app</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="gogoro-3.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/gogoro/home-revamp-cover.jpg" alt="Home UI Revamp">
+                            </a>
+                            <h4 class="pt-4 pb-3">Home UI Revamp</h4>
+                            <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#app</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="asuscloud-1.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/asuscloud/lp-cover.jpg" alt="一頁式網站設計">
+                            </a>
+                            <h4 class="pt-4 pb-3">一頁式網站設計</h4>
+                            <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#develope</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="asuscloud-2.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/asuscloud/upload-cover.jpg" alt="產品上傳列表優化">
+                            </a>
+                            <h4 class="pt-4 pb-3">產品上傳列表優化</h4>
+                            <div class="cp-tags"><span>#uiux</span><span>#develope</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="asuscloud-3.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/asuscloud/site-cover.jpg" alt="官網整合與建置">
+                            </a>
+                            <h4 class="pt-4 pb-3">官網整合與建置</h4>
+                            <div class="cp-tags"><span>#visual</span><span>#uiux</span><span>#animation</span><span>#develope</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="lion-1.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/lion/lion-1.jpg" alt="站長平台">
+                            </a>
+                            <h4 class="pt-4 pb-3">站長平台</h4>
+                            <div class="cp-tags"><span>#uiux</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="lion-2.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/lion/bobby-cover.jpg" alt="雄保旅遊">
+                            </a>
+                            <h4 class="pt-4 pb-3">雄保旅遊</h4>
+                            <div class="cp-tags"><span>#uiux</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="egroup-1.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/egroup/makephoto-cover.jpg" alt="MakePhoto">
+                            </a>
+                            <h4 class="pt-4 pb-3">MakePhoto</h4>
+                            <div class="cp-tags"><span>#cis</span><span>#uiux</span><span>#web</span></div>
+                        </li>
+                        <li class="work-item">
+                            <a href="egroup-2.html" target="_blank" class="fade-in img-frame img-shadow">
+                                <img src="img/egroup/cfbcf-cover.jpg" alt="勇源輔大乳癌基金會">
+                            </a>
+                            <h4 class="pt-4 pb-3">勇源輔大乳癌基金會</h4>
+                            <div class="cp-tags"><span>#uiux</span><span>#develope</span><span>#web</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-md-5 pt-2">
+                    <div class="works-indicator-track">
+                        <div class="works-indicator-thumb">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section id="contact" class="scroll d-flex align-items-md-center align-items-start position-relative">
+            <div class="container js-scrolltop">
+                <div class="row">
+                    <div class="col-md-7 offset-md-5 col-10 offset-1">
+                        <h1 class="pb-md-5 pb-4 fc-white">與我聯繫</h1>
+                        <h4 class="fc-white pb-md-2 pb-1">T. <span class="h4 fc-white fw-light">0935 830 129</span></h4>
+                        <h4 class="fc-white pb-3">E. <a href="mailto:janetyu0129@gmail.com" target="_blank" class="h4 fc-white fw-light">janetyu0129@gmail.com</a></h4>
+                        <div>
+                            <a href="https://www.linkedin.com/in/shih-ting-yu-077000119/" target="_blank" class="me-2">
+                                <i class="h4 fc-white fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.behance.net/janetyu0126b33" target="_blank">
+                                <i class="h4 fc-white fa-brands fa-behance"></i>
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p class="cap fc-white fw-light opacity-50">Copyright © 2023 Janet Yu. All rights reserved.</p>
+                        </div>
+                        <div class="scrolltop">
+                            <img src="img/scroll_top.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- custom -->
     <script src="js/style.js"></script>
 </body>
 
