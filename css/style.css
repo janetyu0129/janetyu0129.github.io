@@ -224,7 +224,7 @@ img {
 }
 
 .fc-white {
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .btn-yu-primary {
@@ -835,6 +835,9 @@ img {
     }
     .cp-project {
         padding-bottom: 2rem;
+    }
+    .c-name::after {
+        display: none;
     }
     #works::after {
         top: 80px;
