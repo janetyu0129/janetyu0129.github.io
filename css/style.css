@@ -674,6 +674,35 @@ img {
     transform: translateX(0);
 }
 
+.notes {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    justify-content: center;
+    transform-origin: center;
+    transform: rotate(-3deg);
+}
+
+#competitors tr {
+    border-bottom: 2px solid #f8f8f8;
+}
+
+#competitors tr th {
+    padding: 1.2rem;
+    background-color: #ECF3FF;
+    border-radius: 5px;
+    border-right: 2px solid #f8f8f8;
+}
+
+#competitors tr td {
+    padding: 1.2rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
 
 /* old */
 
