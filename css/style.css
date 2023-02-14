@@ -52,7 +52,7 @@
 }
 
 :root {
-    --color-black: #0d0d0d;
+    --color-black: rgb(13, 13, 13);
     --color-white: #f8f8f8;
     --header-height: 70px;
     /* old */
@@ -675,15 +675,25 @@ img {
 }
 
 .notes {
+    position: relative;
     width: 100%;
     min-height: 200px;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem 2rem;
-    background: #fff;
+    padding: 2rem 1.5rem 1.5rem;
+    background: #F9ED99;
     justify-content: center;
     transform-origin: center;
     transform: rotate(-3deg);
+    box-shadow: 0 8px 16px -8px rgba(13, 13, 13, 0.15);
+}
+
+.tape {
+    position: absolute;
+    top: -1.5rem;
+    left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.75rem 1rem;
 }
 
 #competitors tr {
