@@ -903,6 +903,9 @@ img {
         min-height: 640px;
         padding-top: 120px;
     }
+    .hero_bnr_new {
+        width: 90%;
+    }
     .bk-white {
         padding: 3.5rem 2.5rem 4rem;
     }
