@@ -46,11 +46,6 @@
     font-weight: 300;
 }
 
-@font-face {
-    font-family: ChenYuluoyan;
-    src: url(../font/ChenYuluoyan-Thin.ttf) format('truetype');
-}
-
 :root {
     --color-black: rgb(13, 13, 13);
     --color-white: #f8f8f8;
@@ -64,7 +59,7 @@
 }
 
 * {
-    font-family: 'Roboto', 'Noto Sans TC', 'ChenYuluoyan', sans-serif;
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
     line-height: 1.5;
     font-size: 16px;
     color: var(--color-black);
@@ -147,8 +142,10 @@ a:hover {
 }
 
 .motto {
-    font-family: 'ChenYuluoyan';
-    color: var(--color-black);
+    display: block;
+    margin: 1rem auto;
+    /* font-family: 'ChenYuluoyan'; */
+    /* color: var(--color-black); */
     /* background: linear-gradient(to right, var(--color-black) 50%, var(--color-white)); */
     /* padding: 2.5rem; */
 }
@@ -870,6 +867,9 @@ img {
     }
     .open-browser img {
         width: 1.5rem;
+    }
+    .motto {
+        width: 65%;
     }
     .hand {
         width: 44px;
