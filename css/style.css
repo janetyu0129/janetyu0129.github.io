@@ -873,7 +873,8 @@ two-up:defined {
 
 .god-scrollview-content {
     position: absolute;
-    overflow: auto;
+    overflow-x: scroll;
+    width: 100%;
     white-space: nowrap;
     align-self: center;
     -ms-overflow-style: none;
@@ -893,13 +894,14 @@ two-up:defined {
 
 .god-scroll {
     display: inline-block;
+    width: 100%;
     margin: 0 12%;
 }
 
 .god-scroll div {
     display: inline-block;
-    width: 20%;
     max-width: 100%;
+    width: calc(100vw/6);
     margin: 3rem 1.5rem 3rem 0;
 }
 
@@ -1051,6 +1053,12 @@ two-up:defined {
     }
     .god-scroll {
         margin: 0 5%;
+    }
+    .god-scroll div {
+        width: calc(100vw/1.5);
+    }
+    .god-scroll div:first-child {
+        margin-left: 10%;
     }
     .god-pink-bg {
         border-radius: 2rem;
