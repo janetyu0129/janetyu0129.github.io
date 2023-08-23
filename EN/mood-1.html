@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>喻詩庭 Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <!-- bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css.map" rel="stylesheet">
+    <!-- custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Hotjar Tracking Code for https://janetyu0129.github.io/ -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2924891,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0QWSCNEWM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D0QWSCNEWM');
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12 d-flex align-items-center">
+                            <div>
+                                <div class="pb-md-5 pb-4">
+                                    <h1 class="position-relative">MOOD App Revamp</h1>
+                                </div>
+                                <div class="cp-tags pb-2"><span>#visual</span><span>#uiux</span><span>#app</span></div>
+                                <p class="opacity-50 pb-4">MOOD Internet Incorporation</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <img src="../img/mood/mood-cover.jpg" alt="MOOD App Revamp">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 bk-white">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 col-12">
+                            <p class="cap cap-en opacity-50 pb-2">PROJECT SUMMARY</p>
+                            <h3 class="pb-4">OVERVIEW AND SUCCESS</h3>
+                            <p>The MOOD App is the main product of MOOD Internet, providing users with a 'convenient, quick, easy-to-use, and enjoyable lifestyle sharing platform.' After the app's launch, in response to adjustments in the business model
+                                and user feedback, and with the introduction of design system features in Figma in July, the UI of the MOOD App was redesigned and organized, integrating it into the Figma Variables design system. Additionally, I ventured
+                                into designing IP character for the first time. During the product development phase, apart from aligning with the team's existing development processes, we integrated the design system and optimized the workflow, collaborating
+                                closely with team members to drive rapid iterations and enhance the product, making it even better.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="offset-md-1 col-md-4 col-12">
+                    <div class="py-5">
+                        <p class="cap cap-en opacity-50 pb-2">PROCESS</p>
+                        <h3 class="pb-4">IDEATION AND DESIGN</h3>
+                        <p>Given that the primary users of the MOOD App are Generation Z college students, we aimed to create a youthful and vibrant atmosphere. We achieved this by using lively and saturated colors, incorporating rounded corners, and defining
+                            a UI design vocabulary and logic. This effort included adding a dark mode, adjusting the main visual color palette, redesigning icons, choosing fonts, specifying spacing, and quantifying corner radius. For the first time, I
+                            used Figma Variables into the design system, significantly enhancing design consistency and efficiency in output.</p>
+                    </div>
+                </div>
+                <div class="offset-md-1 col-md-6 col-12">
+                    <div class="fade-in">
+                        <img src="../img/mood/mood-app-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-md-11 col-12">
+                    <div class="fade-in">
+                        <img src="../img/mood/mood-app-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-4 col-md-4 col-12 mb-5">
+                    <p>After the app's launch, we responded to adjustments in the business model and user feedback by prioritizing the redesign and adjustments of key UI elements. Subsequently, we gradually used dark mode to enhance user comfort during usage.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="../img/mood/mood-app-s1-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../img/mood/mood-app-s1-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">Index</h4>
+                        <p>I conducted a consistency adjustment to align the original Top app bar and Navigation bar UI designs, primarily enhancing the relationship between functionalities and elements. For content UI, we made adjustments to fine-tune details,
+                            increasing overall refinement.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4 mt-md-5 mt-0">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="../img/mood/mood-app-s2-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../img/mood/mood-app-s2-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">Add Post</h4>
+                        <p>I incorporated user feedback into the design, not only by adjusting the UI design for editing functions but also by enhancing prompts and guidance for editing operations, making the process of adding new content smoother.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="../img/mood/mood-app-s3-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="../img/mood/mood-app-s3-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">Mood Points</h4>
+                        <p>I optimized the UI of daily check-in cards and task reward cards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-6">
+        <div class="mood-full-cover"></div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2" style="background-color: #8686ff;">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-3 col-12">
+                    <h4 class="mb-3 fc-white">Introducing New IP Character Moobie!</h4>
+                    <p class="fc-white">To enhance the overall product image of the MOOD App and strengthen the connection with users, I embarked on the first-time creation of a custom character IP. I integrated elements of roundness and 'MOOD' into the character, crafting
+                        various expressions and character traits that convey the product's friendly and approachable values.</p>
+                </div>
+                <div class="col-md-7 col-12">
+                    <div class="fade-in mt-4">
+                        <img src="../img/mood/mood-app-moobie1-en.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="fade-in mt-5">
+                        <img src="../img/mood/mood-app-moobie2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-4 col-8 order-md-1 order-2">
+                    <p class="cap fc-white opacity-50">All contents and images Copyright © 2022 Janet Yu</p>
+                </div>
+                <div class="col-md-4 col-12 order-md-2 order-1">
+                    <div class="text-center mb-md-0 mb-4">
+                        <a href="../EN/egroup-2.html" class="d-inline-block btn-yu-third mx-1">PREVIOUS</a>
+                        <a href="../EN/mood-2.html" class="d-inline-block btn-yu-third mx-1">NEXT</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 order-md-3 order-3">
+                    <div class="text-end scrolltop">
+                        <img src="../img/scroll_top.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom -->
+    <script src="../js/style-child.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/two-up-min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>喻詩庭 Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css.map" rel="stylesheet">
+    <!-- custom -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Hotjar Tracking Code for https://janetyu0129.github.io/ -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2924891,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0QWSCNEWM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D0QWSCNEWM');
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12 d-flex align-items-center">
+                            <div>
+                                <div class="pb-md-5 pb-4">
+                                    <h1 class="position-relative">MOOD App<br>Revamp</h1>
+                                </div>
+                                <div class="cp-tags pb-2"><span>#visual</span><span>#uiux</span><span>#app</span></div>
+                                <p class="opacity-50 pb-4">東森慕德科技股份有限公司</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <img src="img/mood/mood-cover.jpg" alt="MOOD App Revamp">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 bk-white">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 col-12">
+                            <p class="cap cap-en opacity-50 pb-2">OVERVIEW AND SUCCESS</p>
+                            <h3 class="pb-4">概述與成就</h3>
+                            <p class="text-justify">MOOD App 為東森慕德的主要產品，為使用者提供一個「隨寫、速查、易買、好逛的生活共享平台」，App 上線後因應商業模式的調整與使用者的回饋，加上 Figma 於七月新增設計系統功能，將 MOOD App 的 UI 重新設計整理並導入 Figma Variables 設計系統中，此外，首次嘗試為產品設計 IP 角色。在產品開發的階段，除了配合團隊原本的開發流程，將設計系統導入、產出流程優化，快速迭代中與組員協作推進產品，讓產品變得更好。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="offset-md-1 col-md-4 col-12">
+                    <div class="py-5">
+                        <p class="cap cap-en opacity-50 pb-2">IDEATION AND DESIGN</p>
+                        <h3 class="pb-4">構思與設計</h3>
+                        <p class="text-justify">因 MOOD App 主要使用者為 Z 世代的大學生，所以想營造年輕與活潑的氛圍，利用繽紛飽和的顏色與大量使用圓角等元素，定義出 UI 設計語彙與邏輯，包含新增暗黑模式、主視覺顏色調整、重畫 icon、字體、間距與圓角數值化，並首次導入 Figma Variables 設計系統中，大幅提升設計產出的一致性與效率。</p>
+                    </div>
+                </div>
+                <div class="offset-md-1 col-md-6 col-12">
+                    <div class="fade-in">
+                        <img src="img/mood/mood-app-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-md-11 col-12">
+                    <div class="fade-in">
+                        <img src="img/mood/mood-app-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-4 col-md-4 col-12 mb-5">
+                    <p class="text-justify">App 上線後因應商業模式的調整與使用者的回饋，優先將重點的 UI 做重新設計與調整，後期陸續導入暗黑模式讓使用上更舒適。</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="img/mood/mood-app-s1-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="img/mood/mood-app-s1-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">首頁</h4>
+                        <p class="text-justify">將原本 Top app bar 與 Navigation bar UI 設計做一致性調整，主要增強功能與元件間的關聯性，內容 UI 則是調整細節，增加細緻度。</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4 mt-md-5 mt-0">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="img/mood/mood-app-s2-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="img/mood/mood-app-s2-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">新增貼文頁</h4>
+                        <p class="text-justify">將使用者的回饋融入設計，除了調整編輯功能 UI 設計，加強編輯操作上的提示與引導，讓新增內容的流程更順暢。</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 my-4">
+                    <div class="fade-in mb-4">
+                        <two-up class="my-two-up">
+                            <div>
+                                <img src="img/mood/mood-app-s3-before.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="img/mood/mood-app-s3-after.jpg" alt="">
+                            </div>
+                        </two-up>
+                    </div>
+                    <div class="me-md-4 me-0">
+                        <h4 class="mb-3">Mood Points 頁</h4>
+                        <p class="text-justify">優化每日簽到卡與固定獎勵卡 UI。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-6">
+        <div class="mood-full-cover"></div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2" style="background-color: #8686ff;">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-1 col-md-3 col-12">
+                    <h4 class="mb-3 fc-white">新增 IP 角色 Moobie!</h4>
+                    <p class="text-justify fc-white">為了提升 MOOD App 整體產品形象與加強與使用者的連結，首次嘗試量身打造角色 IP，將圓潤與「MOOD」的元素融入其中，各種表情動作與人設安排，表達出產品親切與平易近人的價值。</p>
+                </div>
+                <div class="col-md-7 col-12">
+                    <div class="fade-in mt-4">
+                        <img src="img/mood/mood-app-moobie1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="fade-in mt-5">
+                        <img src="img/mood/mood-app-moobie2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-4 col-8 order-md-1 order-2">
+                    <p class="cap fc-white opacity-50">All contents and images Copyright © 2022 Janet Yu</p>
+                </div>
+                <div class="col-md-4 col-12 order-md-2 order-1">
+                    <div class="text-center mb-md-0 mb-4">
+                        <a href="egroup-2.html" class="d-inline-block btn-yu-third mx-1">上一個作品</a>
+                        <a href="mood-2.html" class="d-inline-block btn-yu-third mx-1">下一個作品</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 order-md-3 order-3">
+                    <div class="text-end scrolltop">
+                        <img src="img/scroll_top.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom -->
+    <script src="js/style-child.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/two-up-min.js"></script>
+</body>
+
+</html>

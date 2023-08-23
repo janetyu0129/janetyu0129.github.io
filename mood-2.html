@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/aCjV5EK.png" />
+    <title>喻詩庭 Janet Yu</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css.map" rel="stylesheet">
+    <!-- custom -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- font awesome 6 -->
+    <script src="https://kit.fontawesome.com/27d3abbcd9.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html", function(responseTxt, statusTxt, xhr) {
+                if (statusTxt == "success") {
+                    $("button.navbar-toggler").click(function() {
+                        $(".custom-navbar-bg").toggleClass("open");
+                    });
+                    $('.nav-link, .btn-yu-primary').on('click', function() {
+                        $('.navbar-collapse').collapse('hide');
+                        $(".custom-navbar-bg").removeClass("open");
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Hotjar Tracking Code for https://janetyu0129.github.io/ -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2924891,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0QWSCNEWM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D0QWSCNEWM');
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section class="px-md-0 px-2">
+        <div class="container hero_bnr pb-md-5 pb-4 d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12 d-flex align-items-center">
+                            <div>
+                                <div class="pb-md-5 pb-4">
+                                    <h1 class="position-relative">匿名聊天室<br>設計</h1>
+                                </div>
+                                <div class="cp-tags pb-2"><span>#visual</span><span>#uiux</span><span>#app</span></div>
+                                <p class="opacity-50 pb-4">東森慕德科技股份有限公司</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <img src="img/mood/god-cover.jpg" alt="匿名聊天室設計">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 bk-white">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 col-12">
+                            <p class="cap cap-en opacity-50 pb-2">OVERVIEW AND SUCCESS</p>
+                            <h3 class="pb-4">概述與成就</h3>
+                            <p class="text-justify">因應七夕情人節的活動，為了提升 MOOD 使用者間的互相關注與持續回訪，所設計的新功能匿名聊天室。使用單純開話題的方式選擇想認識的對象，彼此都不知道對方真實身份，讓過程更輕鬆無壓力，隨時隨地想聊什麼就聊什麼，若不知如何破冰的新手，還有貼心的小幫手功能幫助使用者開話題。專案中定義了活動專屬的色系、繪製月老角色與 widget UI 的使用流程。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-md-0 px-2">
+        <div class="container">
+            <div class="row flex-fill align-items-center">
+                <div class="offset-md-6 col-md-4 col-12">
+                    <div class="pt-5 pb-md-0 pb-5">
+                        <p class="cap cap-en opacity-50 pb-2">IDEATION AND DESIGN</p>
+                        <h3 class="pb-4">構思與設計</h3>
+                        <p class="text-justify">過程中透過許多七夕情人節的參考範例，繪製出符合產品圓潤風格的月老角色，活動 UI 主要以粉色系為主，搭配產品原本主視覺的紫色系為輔，營造出七夕時節的戀愛氛圍。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-4 col-12">
+                    <div class="row">
+                        <div class="offset-md-2 col-md-10 col-12">
+                            <div class="fade-in">
+                                <img src="img/mood/god-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="fade-in py-md-0 py-3">
+                                <img src="img/mood/god-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-flex align-items-end">
+                    <div class="fade-in py-md-0 py-3">
+                        <img src="img/mood/god-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-0">
+        <div class="god-scrollview-container">
+            <div class="god-scrollview-content">
+                <div class="god-scroll fade-in-right">
+                    <div>
+                        <img src="img/mood/god-screen-1.png" alt="">
+                        <p class="cap text-center mt-3">匿名聊天室列表</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-2.png" alt="">
+                        <p class="cap text-center mt-3">創建聊天室</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-3.png" alt="">
+                        <p class="cap text-center mt-3">匿名聊天室邀請</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-4.png" alt="">
+                        <p class="cap text-center mt-3">對方接受邀請視窗</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-5.png" alt="">
+                        <p class="cap text-center mt-3">月老視窗</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-6.png" alt="">
+                        <p class="cap text-center mt-3">月老 Widget</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-7.png" alt="">
+                        <p class="cap text-center mt-3">限時邀請關注對方視窗</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-8.png" alt="">
+                        <p class="cap text-center mt-3">收到對方的限時邀請關注</p>
+                    </div>
+                    <div>
+                        <img src="img/mood/god-screen-9.png" alt="">
+                        <p class="cap text-center mt-3">成功互相關注視窗</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex align-items-center">
+                <div class="col-12 px-md-0 px-2">
+                    <div class="god-pink-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 px-0 god-video">
+        <div class="demo-video py-4 mb-5">
+            <img src="img/frame.png">
+            <video autoplay loop muted>
+                <source src="img/mood/moon-god-demo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="footer px-md-0 px-2">
+        <div class="container d-flex">
+            <div class="row flex-fill align-items-center">
+                <div class="col-md-4 col-8 order-md-1 order-2">
+                    <p class="cap fc-white opacity-50">All contents and images Copyright © 2022 Janet Yu</p>
+                </div>
+                <div class="col-md-4 col-12 order-md-2 order-1">
+                    <div class="text-center mb-md-0 mb-4">
+                        <a href="mood-1.html" class="d-inline-block btn-yu-third mx-1">上一個作品</a>
+                        <a href="gogoro-1.html" class="d-inline-block btn-yu-third mx-1">下一個作品</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 order-md-3 order-3">
+                    <div class="text-end scrolltop">
+                        <img src="img/scroll_top.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom -->
+    <script src="js/style-child.js"></script>
+</body>
+
+</html>
