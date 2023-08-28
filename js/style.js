@@ -1,3 +1,9 @@
+$(window).on('load', function() {
+    setTimeout(function() {
+        $('#loading').fadeOut('slow');
+    }, 2000);
+})
+
 $(document).ready(function() {
     $(".scroller").scroll(function() {
         //change header style while scrolling to dark background
